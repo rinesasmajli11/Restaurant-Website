@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/variablat.css">
+
+    <!--Google Fonts -->
+
+        <!-- Link Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Inspiration&family=Irish+Grover&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+     
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+<body class="body">
+    
+    <header class="bg-primary text-white">
+        <nav class="navbar">
+            <div class="navbar-logo">
+                <a href="#">Restarauntista</a>
+         </div>
+         <ul class="navbar-menu">
+            <li> <a href="" class="text-white active">Home</a></li>
+            <li> <a href="menu.html" class="text-white">Menu<i class="fa-solid fa-cart-shopping"></i>
+                <span  id="Cart-Badge" class="badge" > 0</span></a></li>
+         </ul>
+         <button class="navbar-burger"><i class="fa-solid fa-bars"></i></button>
+     </nav>
+</header>
+    
+
+
+<section class="hero">
+    <div class="hero-content">
+        <h1  class="hero-content-title">Order your <br><span>favorite Foods</span></h1>
+        <p class="hero-content-slogan text-gray"> Fresh and Tasty Seafood Curry, salads, 
+            wood-fired pizzas, and cakes and tarts — all crafted with care for the 
+            <span class="text-black"> best dining experience.</span>
+        </p>
+
+        <div class="order-info">
+            <h3 class="order-info-total">
+            Total Order: <span class="price">$0</span>
+        </h3>
+
+        <div class="order-info-buttons">
+            <div class="quantity-selector">
+                <button id="decrease">-</button>
+                <span class="quantity">1</span>
+                <button id="increase">+</button>
+            </div>   
+
+            <button class="add-to-cart">
+                <span class="cart-icon"><i class="fa-solid fa-cart-shopping" style="padding-left: 13px;"></i>
+                </span>
+            Add to cart
+            </button>
+        </div>
+    </div>
+
+
+
+        <div class="food-carousel" >
+            <button class="carousel-arrow left-arrow " >
+                <i class="fa-solid fa-angle-left"></i>
+            </button>
+
+
+            <div class="food-items">
+                <div class="food-item selected">
+                    <img src="img/Margarita.png" alt="" width="100px">
+                    <p>Margarita <span class="item-price">$3.25</span></p>
+                </div>
+
+
+             <div class="food-item ">
+                 <img src="img/chicken salat.avif" alt="" width="100px">
+                 <p>Salad<br>
+                    <span class="item-price" >$3.25</span></p>
+            </div>
+
+
+             <div class="food-item ">
+                    <img src="img/burger.jpg" alt="" width="100px">
+                    <p> Burger
+                         <span class="item-price">$3.25</span></p>
+            </div>
+        </div>
+
+
+            <button class="carousel-arrow right-arrow">
+                <i class="fa-solid fa-angle-right"></i>
+            </button>
+        </div>
+    </div>
+
+
+    <img class="hero-bg" src="img/hero-bg.png" alt="" width="100px">
+
+    <div class="hero-image">
+      <img class="hero-main-image" src="img/Margarita.png"  width="200px">
+      <div class="food-details">
+        <div class="food-title">
+            <p>Margarita</p>
+            <p>4.9</p>
+        </div>
+        <p class="prepare-time"><i class="fa-solid fa-clock"></i> 13-16mins</p>
+      </div>
+    </div>
+</section>
+
+
+<section class="order-steps">
+    <h2 class="order-steps-title">Order with Ease.</h2>
+    <div class="order-steps-container">
+        
+        <div class="order-step">
+            <img src="img/pasta 1.svg" alt="" class="order-step-icon">
+            <h3 class="order-step-title">Choose</h3>
+            <p class="order-step-description">Select your favorite dishes</p>     
+         </div>
+
+     <div class="order-step">
+       <img src="img/pizza 1.svg" alt="" class="order-step-icon">
+       <h3 class="order-step-title">Order</h3>
+       <p class="order-step-description">Use our website to experience a smoth online ordering</p>     
+    </div>
+
+    <div class="order-step">
+         <img src="img/risotto 1.svg" alt="" class="order-step-icon">
+         <h3 class="order-step-title">Pay</h3>
+         <p class="order-step-description">Our payment service ensures a seamless and assle-free process</p>     
+     </div>
+ </div>
+</section>
+
+<section class="cta-section">
+    <div class="cta-content">
+        <h2 class="cta-title">Original taste</h2>
+        <p class="cta-description">Feel exited to taste our amazing food and order online now !</p>
+        <a href="menu.html" class="cta-button">Order online</a>
+    </div>
+</section>
+
+<section class="statistics-section">
+    <div class="statistics-header">
+        <h1 class="statistics-title">We like numbers.
+          <br>How about you?   
+        </h1>
+     
+     <div class="statistics-container">
+        <div class="stat-item">
+          <span class="stat-value" data-target="2000">0</span>   
+          <p class="stat-description">Happy costumer</p>
+        </div>
+
+     
+        <div class="stat-item">
+          <span class="stat-value" data-target="900">0</span>   
+          <p class="stat-description">Delicious Dishes</p>
+        </div>
+
+       
+         <div class="stat-item">
+           <span class="stat-value" data-target="1900">0</span>   
+            <p class="stat-description">Orders</p>
+         </div>
+
+         <div class="stat-item">
+             <span class="stat-value" data-target="100">0</span>   
+             <p class="stat-description">Daily Website Visitors</p>
+        </div>     
+     </div>   
+  </div>
+</section>
+
+
+<section class="about-section">
+    <div class="about-content">
+       <h2 class="about-title">About us</h2> 
+       <p class="about-description">
+        Welcome to Restaurantista - where culinary delights meet the digital realm.
+         Our story begins with a passion for exceptional food and a vision to bring delectable flavors 
+         directly to your doorstep. As a fully online restaurant, we have reimagined the dining experience, eliminating 
+        the need for physical locations and embracing the convenience of the virtual world.
+       </p>
+
+       <p class="about-description">At Restaurantista, we understand the fast-paced nature of modern life, where time is a precious commodity.
+         With this in mind, we set out to create 
+        an innovative platform that seamlessly connects food lovers with a diverse menu of tantalizing dishes, all available at the click
+         of a button.
+       </p>
+    </div>
+</section>
+
+<section class="subscribe-section">
+    <h2 class="subscribe-title">Never miss a recipe!</h2>
+  
+    <form class="subscribe-form" id="subscribeForm">
+      <label for="checkbox" class="subscribe-checkbox">
+        Subscribe to our Newsletter
+        <input type="checkbox" id="checkbox" name="checkbox" checked>
+      </label>
+  
+      <div class="subscribe-form-inline">
+        <input
+          type="email"
+          id="subscriberEmail"
+          placeholder="Your Email..."
+          class="subscribe-input"
+          required
+        />
+        <button type="submit" class="subscribe-button">Subscribe</button>
+      </div>
+    </form>
+  </section>
+  
+
+
+<section class="contact-section">
+    <div class="contact-info">
+
+        <h3>Location</h3>
+        <p>Rruga Shkupi, Nr. 13 <br>Prishtinë, Kosovë 10000  </p>
+
+        <h3>Email</h3>
+        <p>info@Nesa-restaurant.com </p>
+       
+        <h3>Call us</h3>
+        <p>049-200-100</p>
+    </div>
+
+    <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1214.1889174786108!2d21.153756808096528!3d42.64962008105798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13549fefd7ff13ad%3A0x6281207f6a61a3df!2sMarco%20Polo&#39;s!5e0!3m2!1sen!2s!4v1734559495429!5m2!1sen!2s" width="600" height="450" 
+        style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+       
+    </div>
+</section>
+
+<section class="video-section">
+    <h2 class="video-title">Turn Your Home into a Restaurant.</h2>
+    <p class="video-description">
+    Are you the kind of person who relishes the joy of savoring delicious food in the
+    comfort of your own home? If you prefer to escape the hustle and bustle of overcrowded restaurants, 
+    say goodbye to the stress of making reservations, and indulge in the convenience of dining at your own pace
+    ,then you've come to the right place.
+    </p>
+
+    <iframe  class="video-iframe"
+    width="800" height="400" src="https://www.youtube.com/embed/xPPLbEFbCAo?si=CocRE96wdzDqjkxo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe>
+</section>
+
+
+<section class="email-section">
+     <h2 class="text-primary text-title">Contact Us</h2>
+  <div class="email-content">
+     <div class="email-image">
+      <img src="img/Contact-us.avif" alt="">
+     </div> 
+      
+      <form class="email-form">
+        <input type="text" name="name" id="name" placeholder="Name..."  >
+        <input type="email" name="email"  id="email"    placeholder="Email..." >
+        <input type="text" name="subject" id="subject"  placeholder="Subject..." >
+        <textarea name="message"     placeholder="Message..." rows="5" id="" ></textarea>
+        <p id="formError" style="color: red;"></p>
+        <button type="submit">Send Message</button>
+      </form>
+  </div>
+</section>
+
+
+<section class="testimonial-section">
+    <h2 class="testimonial-title primary-title">
+      What our Clients Say About us
+    </h2>
+  
+    <div class="carousel-indicators"></div>
+  
+    <div class="testimonial-carousel">
+      <button class="carousel-arrow left-arrow-testimonial">
+        <i class="fa fa-angle-left"></i>
+      </button>
+  
+      <div class="testimonial-container">
+        <div class="testimonial-card-first">
+          <div class="testimonial-image">
+            <img src="img/Manager1.jpg" alt="">
+          </div>
+          <h3 class="testimonial-name">James Grande</h3>
+          <p class="testimonial-role">Manager</p>
+          <p class="testimonial-quote"><i class="fa-solid fa-quote-left"></i></p>
+          <p class="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        </div>
+  
+        <div class="testimonial-card-middle">
+          <div class="testimonial-image">
+            <img src="img/Ceo.jpeg" alt="Rinesa Smajli">
+          </div>
+          <h3 class="testimonial-name">Rinesa Smajli</h3>
+          <p class="testimonial-role">CEO</p>
+          <p class="testimonial-quote"><i class="fa-solid fa-quote-left"></i></p>
+          <p class="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        </div>
+  
+        <div class="testimonial-card-third">
+          <div class="testimonial-image">
+            <img src="img/Manager.jpg" alt="Shelley L. Broader">
+          </div>
+          <h3 class="testimonial-name">Shelley L. Broader</h3>
+          <p class="testimonial-role">Finance Manager</p>
+          <p class="testimonial-quote"><i class="fa-solid fa-quote-left"></i></p>
+          <p class="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        </div>
+      </div>
+  
+      <button class="carousel-arrow right-arrow-testimonial">
+        <i class="fa fa-angle-right"></i>
+
+      </button>
+    </div>
+  </section>
+  
+
+<footer class="footer-section">
+    <div class="footer-top">
+       <div class="footer-left">
+          <div class="footer-logo">
+             <h1>Restaurantista</h1>
+        </div>
+
+       <div class="footer-info">
+           <h2>Turn your home into restaurant <br> with Restarauntista</h2>
+           <p class="text-gray">Restarauntista, 2024.</p>
+       </div> 
+    </div> 
+
+
+       <div class="footer-button">
+          <a href="menu.html" class="order-button">ORDER HERE</a>
+       </div>
+    </div>
+
+    <hr>
+
+    <div class="footer-bottom">
+          <p>MakerMinds © 2024 Restarauntista</p>
+        <div class="footer-links">
+            <a href="#">Terms of Service</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Cookie</a>
+        </div>
+    </div>
+</footer>
+<script src="js/hero.js"></script>
+<script src="js/statistic.js"></script>
+<script src="js/subscription.js"></script>
+<script src="js/contact.js"></script>
+<script src="js/testimonials.js"></script>
+
+<!--Toastify js-->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+</htm>

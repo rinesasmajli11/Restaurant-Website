@@ -1,0 +1,26 @@
+[
+  {
+    "name": "James Grande",
+    "role": "Manager",
+    "image": "img/Manager1.jpg",
+    "text": "The service was exceptional, and the food was fantastic. I couldn't have asked for more!"
+  },
+  {
+    "name": "Rinesa Smajli",
+    "role": "Ceo",
+    "image": "img/Ceo.jpeg",
+    "text": "The atmosphere is warm and welcoming. A place that always makes me want to come back."
+  },
+  {
+    "name": "Shelley L. Broader",
+    "role": "Finance Manager",
+    "image": "img/Manager.jpg",
+    "text": "The menu is rich, and every dish has a unique taste. Simply amazing!"
+  },
+  {
+    "name": "Rose Shelyer",
+    "role": "Lead Designer",
+    "image": "img/manager3.jpg",
+    "text": "Lovely place with great food and friendly service. A must-try restaurant!"
+  }
+]

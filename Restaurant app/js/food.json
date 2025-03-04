@@ -1,0 +1,439 @@
+{
+  "categories": {
+    "Breakfast": [
+      {
+        "name": "Pancakes",
+        "price": 5.0,
+        "image": "img/pancakes.png",
+        "rating": 4.5,
+        "preparationTime": "10-15mins"
+      },
+
+      {
+        "name": "Omlette",
+        "price": 3.7,
+        "image": "img/omletee.png",
+        "rating": 4.0,
+        "preparationTime": "8-10mins"
+      },
+      {
+        "name": "Waffles",
+        "price": 6.0,
+        "image": "img/Waffles.png",
+        "rating": 4.5,
+        "preparationTime": "10-15mins"
+      },
+      {
+        "name": "Eggs Benedict",
+        "price": 8.0,
+        "image": "img/Eggs Benedict.png",
+        "rating": 4.5,
+        "preparationTime": "15-20mins"
+      },
+      {
+        "name": "French Toast",
+        "price": 6.0,
+        "image": "img/french toast.png",
+        "rating": 4.5,
+        "preparationTime": "10-12mins"
+      },
+      {
+        "name": "Greek Yogurt",
+        "price": 5.0,
+        "image": "img/greek yougurt.png",
+        "rating": 4.5,
+        "preparationTime": "5-10mins"
+      },
+      {
+        "name": "Croissants",
+        "price": 3.0,
+        "image": "img/croasant.png",
+        "rating": 4.5,
+        "preparationTime": "15-20mins"
+      },
+      {
+        "name": "Fruit Salad",
+        "price": 5.0,
+        "image": "img/fruit salad.png",
+        "rating": 5.0,
+        "preparationTime": "5-10mins"
+      },
+      {
+        "name": "Smoothie Bowl",
+        "price": 5.0,
+        "image": "img/smothie.png",
+        "rating": 4.5,
+        "preparationTime": "15-19mins"
+      }
+    ],
+    "Lunch": [
+      {
+        "name": "Pizza",
+        "price": 3.5,
+        "image": "img/Margarita.png",
+        "rating": 4.5,
+        "preparationTime": "10-15mins"
+      },
+
+      {
+        "name": "Greek Salad",
+        "price": 4.7,
+        "image": "img/salat.png",
+        "rating": 5.0,
+        "preparationTime": "8-10mins"
+      },
+      {
+        "name": "Caeser Salad",
+        "price": 5.7,
+        "image": "img/Caesar-removebg-preview.png",
+        "rating": 5.0,
+        "preparationTime": "5-10mins"
+      },
+
+      {
+        "name": "Hamburger",
+        "price": 4.5,
+        "image": "img/burger.png",
+        "rating": 4.5,
+        "preparationTime": "15-20mins"
+      },
+
+      {
+        "name": "Sushi",
+        "price": 5.5,
+        "image": "img/sushi.png",
+        "rating": 4.0,
+        "preparationTime": "10-15mins"
+      },
+
+      {
+        "name": "Pasta Alfredo",
+        "price": 8.5,
+        "image": "img/pasta alfredo.png",
+        "rating": 5.0,
+        "preparationTime": "12-15mins"
+      },
+      {
+        "name": "Spaghetti Bolognese",
+        "price": 9.5,
+        "image": "img/bolonese spageti.png",
+        "rating": 4.0,
+        "preparationTime": "20-25mins"
+      },
+      {
+        "name": "Wrap Chicken",
+        "price": 6.5,
+        "image": "img/wrap_chicken-removebg-preview.png",
+        "rating": 4.0,
+        "preparationTime": "10-12mins"
+      },
+      {
+        "name": "Beef Steak & Mashed Potatoes",
+        "price": 12,
+        "image": "img/roast beef.png",
+        "rating": 5.0,
+        "preparationTime": "15-20mins"
+      },
+      {
+        "name": "Tacos ",
+        "price": 8.5,
+        "image": "img/tacos.png",
+        "rating": 4.0,
+        "preparationTime": "10-15mins"
+      }
+    ],
+
+    "Dinner": [
+      {
+        "name": "Grilled Ribeye Steak",
+        "price": 6.5,
+        "image": "img/steak.png",
+        "rating": 4.5,
+        "preparationTime": "20-30mins"
+      },
+
+      {
+        "name": "Grilled Fish",
+        "price": 5.7,
+        "image": "img/fish.png",
+        "rating": 4.0,
+        "preparationTime": "15-20mins"
+      },
+      {
+        "name": "Chicken Curry & Rice",
+        "price":12 ,
+        "image": "img/chickene curry.png",
+        "rating": 4.0,
+        "preparationTime": "20-30mins"
+      },
+      {
+        "name": "Pad Thai",
+        "price": 11,
+        "image": "img/pad-thai.png",
+        "rating": 5.0,
+        "preparationTime": "15-20mins"
+      },
+      {
+        "name": "Roast Chicken",
+        "price":12 ,
+        "image": "img/chicken-roast-chicken-removebg-preview.png",
+        "rating": 4.0,
+        "preparationTime": "20mins"
+      },
+      {
+        "name": "Lamb Chops",
+        "price": 20,
+        "image": "img/lamb chop.png",
+        "rating": 5.0,
+        "preparationTime": "20-30mins"
+      },
+      {
+        "name": "Lasanga",
+        "price": 15,
+        "image": "img/pngtree-roasted-lasagna-food-png-image_13146358.png",
+        "rating": 5.0,
+        "preparationTime": "20-30mins"
+      },
+      {
+        "name": "Filet Mignon",
+        "price": 20,
+        "image": "img/fileto mingo.png",
+        "rating": 5.0,
+        "preparationTime": "20-30mins"
+      },
+      {
+        "name": "Shrimp",
+        "price": 14,
+        "image": "img/shrimp.png",
+        "rating": 5.0,
+        "preparationTime": "15-20mins"
+      }
+    
+
+      
+    ],
+
+    "Dessert": [
+      {
+        "name": "Ice Cream",
+        "price": 3.5,
+        "image": "img/ice cream.png",
+        "rating": 5.0,
+        "preparationTime": "5-10mins"
+      },
+
+      {
+        "name": "Cake",
+        "price": 4.7,
+        "image": "img/cake.png",
+        "rating": 4.5,
+        "preparationTime": "10-15mins"
+      },
+      
+      {
+        "name": "Apple Strudel",
+        "price": 5.7,
+        "image": "img/appel_strudle-removebg-preview.png",
+        "rating": 4.5,
+        "preparationTime": "20-25mins"
+      },
+      {
+        "name": "Brownies",
+        "price": 4.0,
+        "image": "img/brownie-removebg-preview.png",
+        "rating": 4.5,
+        "preparationTime": "20-30mins"
+      },
+     
+      {
+        "name": "Crème Brûlée",
+        "price": 6.0,
+        "image": "img/featured-Creme-Brulee..png",
+        "rating": 5.0,
+        "preparationTime": "20-30mins"
+      },
+      {
+        "name": "Churros",
+        "price": 4.0,
+        "image": "img/churros.png",
+        "rating": 5.0,
+        "preparationTime": "20-30mins"
+      },
+      {
+        "name": "Pistachio Baklava",
+        "price": 6.0,
+        "image": "img/Pistachio_Baklava.png",
+        "rating": 5.0,
+        "preparationTime": "50-60mins"
+      },
+      {
+        "name": "Eclair",
+        "price": 6.0,
+        "image": "img/eclairr.png",
+        "rating": 5.0,
+        "preparationTime": "20-30mins"
+      },
+      {
+        "name": "Doughnuts",
+        "price": 4.0,
+        "image": "img/donutt.png",
+        "rating": 4.0,
+        "preparationTime": "20-30mins"
+      }
+    ],
+
+    " 🍹Cold Drinks"
+: [
+      {
+        "name": "Lemonade",
+        "price":3.0 ,
+        "image": "img/lemonade-removebg-preview.png",
+        "rating": 5.0
+        
+      },
+      {
+        "name": "Coca Cola",
+        "price": 4.0,
+        "image": "img/cola-removebg-preview.png",
+        "rating":5.0
+        
+      },
+      {
+        "name": "Coca Cola 0",
+        "price":4.0 ,
+        "image": "img/cola_0-removebg-preview.png",
+        "rating": 5.0
+      
+      },
+      {
+        "name": "Fanta",
+        "price": 4.0,
+        "image": "img/fanta-removebg-preview.png",
+        "rating":5.0 
+        
+      },
+      {
+        "name": "Sprite",
+        "price": 4.0,
+        "image": "img/spritee-removebg-preview.png",
+        "rating":5.0 
+        
+      },
+      {
+        "name": "Orange Juice",
+        "price":5.0 ,
+        "image": "img/orange_juice-removebg-preview.png",
+        "rating": 5.0
+        
+      },
+      {
+        "name": " Apple Juice",
+        "price": 5.0,
+        "image": "img/apple_juice-removebg-preview.png",
+        "rating":5.0 
+        
+      },
+  
+      {
+        "name": "Blueberry Juice",
+        "price":6.0,
+        "image": "img/blueberry_juice-removebg-preview.png",
+        "rating":5.0
+        
+      },
+      {
+        "name": "Natural Water",
+        "price":3.0 ,
+        "image": "img/water-removebg-preview.png",
+        "rating":5.0 
+        
+      }
+     
+     
+
+    ],
+
+      "☕ Hot Drinks"
+  : [
+     
+    {
+      "name": "Coffee (Black/Latte)",
+      "price": 2.0,
+      "image": "img/caffe-removebg-preview.png",
+      "rating":5.0 
+      
+    },
+    {
+      "name": "Hot Chocolate",
+      "price":4.0 ,
+      "image": "img/hot_chocolate-removebg-preview.png",
+      "rating": 5.0
+      
+    },
+    {
+      "name": "Cappuccino",
+      "price": 3.0,
+      "image": "img/capuchino-removebg-preview.png",
+      "rating": 5.0
+      
+    },
+    {
+      "name": "Chai Latte",
+      "price":4.0 ,
+      "image": "img/latte-removebg-preview.png",
+      "rating": 5.0
+      
+    }
+   
+      ],
+
+      " Wines"
+
+      : [
+     {
+       "name": "Merlot🍷",
+       "price": 15.0,
+       "image": "img/merlot-removebg-preview.png",
+       "rating": 5.0
+     },
+     {
+      "name": "Pinot Noir🍷",
+      "price": 20.0,
+      "image": "img/Pinot-removebg-preview.png",
+      "rating": 5.0
+    },
+    {
+      "name": "Zinfandel🍷",
+      "price":40.0 ,
+      "image": "img/Zinfandels-removebg-preview.png",
+      "rating": 5.0
+    },
+    {
+      "name": "Chardonnay🍾 ",
+      "price":20.0 ,
+      "image": "img/Chardone-removebg-preview.png",
+      "rating": 5.0
+    },
+    {
+      "name": "Riesling🍾",
+      "price":25.0 ,
+      "image": "img/riesling-removebg-preview.png",
+      "rating": 5.0
+    },
+    {
+      "name": "Moscato🍾",
+      "price": 30.0,
+      "image": "img/moscato-removebg-preview.png",
+      "rating": 5.0
+    }
+
+      ]
+
+
+
+   
+    
+    
+    
+  }
+}
